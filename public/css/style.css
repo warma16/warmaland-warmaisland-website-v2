@@ -1,0 +1,287 @@
+/* CSS Document */
+@charset "utf-8";
+::-webkit-scrollbar{
+            width: 8px;
+            
+        }
+        ::-webkit-scrollbar-thumb{
+            
+        background: rgb(255, 107, 130);     
+        border-radius: 0px;
+		transition: .5s;
+		box-shadow: 0px 0px 15px rgba(0,0,0,0.6)
+        }
+        ::-webkit-scrollbar-thumb:hover{
+            transition: .5s;
+            background: rgb(255, 139, 158);
+			box-shadow: 0px 0px 20px rgba(165, 66, 81, 0.9);
+
+        }
+html
+{
+	font-family: "微软雅黑";
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 80%;
+	transition: .5s;
+}
+body
+{
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/warmanight.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: rgb(100, 100, 100) ;
+	background-position:center center;
+	transition: .5s;
+}
+a
+{
+	text-decoration:none;
+	color: #ffffff;
+}
+.top
+{
+	width:100%;
+	height:80px;
+	box-shadow: 0 0px 10px rgba(0,0,0,0.4);
+	border-radius: 0px 0px 0px 0px;
+	background:rgba(0,0,0,0.5);
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+.topline1
+{
+	width:100%;
+	height:80px;
+	background: rgba(0,0,0,0);
+	box-shadow: 0 0px 10px rgba(0,0,0,0.6);
+}
+.logo
+{
+	font-size: 32px;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-top: 16px;
+	text-shadow: 0 0px 10px rgba(0,0,0,0.9);
+	float: left;
+	transition: .3s;
+	
+}
+.logo:hover
+{
+	text-shadow: 0 0px 30px rgba(200,200,200,1)
+	
+}
+.logo:active
+{
+	text-shadow: 0 0px 10px rgba(0,0,0,1)
+}
+.righttop
+{
+	float: right;
+	height: 100px;
+	width: 60%;
+}
+.links
+{
+	width: 100%;
+	height: 20px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.navigation
+{
+	width:80%;
+	height:30px;
+	margin: 12px auto;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+.navlink
+{
+	text-shadow: 0 0px 30px rgba(100,100,100,1);
+	transition: .2s;
+	font-size: 20px;
+	color: #77AF9C
+	width: 300px;
+	font-weight: bold;
+}
+.navlink:hover
+{
+	text-shadow: 0 0px 35px rgba(250,250,250,1);
+}
+.navlink:active
+{
+	text-shadow: 0 0px 10px rgba(255,255,255,0.5)
+}
+.totop
+{
+	position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 100;
+	width: 50px;
+	height: 50px;
+	background: rgb(255, 107, 130);
+	box-shadow: 0 0px 10px rgba(0,0,0,0.6);
+	transition: .2s;
+	font-size: 35px;
+	text-align: center;
+	border-radius: 100px;
+}
+.totop:hover
+{
+	box-shadow: 0 0px 30px rgba(165, 66, 81, 0.9);
+	background-color: rgb(255, 139, 158);
+}
+.totop:active
+{
+	background-color: rgb(255, 107, 130);
+	box-shadow: 0px 4px 25px rgba(165, 66, 81, 0.9);
+}
+.main2
+{
+	width: 90%;
+	margin: 170px auto 50px auto;
+	box-shadow: 0 0px 10px rgba(0,0,0,0.6);
+	border-radius: 8px;
+}
+.headpng
+{
+	box-shadow: 0 0px 10px rgba(0,0,0,0.6);
+	transition: .2s;
+	border-radius: 5px;
+	width: 90%;
+	height: auto;
+	margin: 40px;
+}
+.end
+{
+	height: 100px;
+	width: auto;
+	background-color: rgba(0,0,0,0.8);
+	box-shadow: 0 0px 10px rgba(0,0,0,0.6)
+}
+.endleft
+{
+	float: left;
+	color: #FFFFFF;
+	width: 300px;
+	margin: 40px 20px 20px 40px;
+	font-weight: bolder;
+}
+.endright
+{
+	float: right;
+	color: #FFFFFF;
+	width: 500px;
+	margin: 40px 90px 20px 20px;
+	font-weight: bolder;
+	text-align: right;
+	
+}
+.endright a
+{
+	text-shadow: 0 0px 30px rgba(100,100,100,1);
+	transition: .2s;
+}
+.endright a:hover
+{
+	text-shadow: 0 0px 15px rgba(255,255,255,1);
+}
+.endright a:active
+{
+	text-shadow: 0 0px 10px rgba(255,255,255,0.5)
+}
+
+/* 弹窗 (background) */
+.modal {
+    display: none; /* 默认隐藏 */
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 20%; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+ 
+/* 弹窗内容 */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+	max-width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+	border-radius: 10px 10px 10px 10px;
+}
+ 
+/* 添加动画 */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+ 
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+ 
+/* 关闭按钮 */
+.close {
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+	text-shadow: 0 0px 15px rgba(165, 66, 81, 0.9);
+	transition: .2s;
+}
+ 
+.close:hover,
+.close:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+	text-shadow: 0 2px 20px rgba(91, 36, 45, 1)
+}
+ 
+.modal-header {
+    padding: 2px 16px;
+    background-color: rgb(255, 107, 130);
+    color: white;
+	padding: 20px;
+	box-shadow:0px 2px 15px rgba(165, 66, 81, 0.9) ;
+	border-radius: 10px 10px 0px 0px;
+	text-shadow: 0 0px 15px rgba(165, 66, 81, 0.9);
+}
+ 
+.modal-body {padding: 2px 16px;}
+ 
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+

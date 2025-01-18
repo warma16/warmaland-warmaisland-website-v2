@@ -1,13 +1,86 @@
-<!DOCTYPE html>
-<html lang="">
+
+
+<html >
   <head>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?ab8022358a69f427b48f387477f6b306";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+      <script src="https://wx.gtimg.com/wxpay_h5/fingerprint2.min.1.5.1.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="never">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>沃玛岛官网</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    
+      
+    <style>
+      #bluelight{
+        position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+ 
+  background-color:rgb(255,232,187);
+  opacity: 0.3;
+  z-index: 5;
+
+}
+@font-face {
+  font-family: 'webfont';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_8iy1ttpqnni.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_8iy1ttpqnni.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_8iy1ttpqnni.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_8iy1ttpqnni.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_8iy1ttpqnni.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_8iy1ttpqnni.svg#NotoSansHans-Black') format('svg'); /* iOS 4.1- */
+}
+@font-face{
+     font-family: 'minecraft'; 
+     src:url('./minecraft.ttf') format('truetype');
+    }
+body{
+  font-family: webfont;
+  background-color: #ffffff;
+}
+.el-drawer{
+    /* overflow-x: auto; */
+    background-color:rgba(0, 0, 0, 0.65);
+}
+    </style>
+    
+    <meta charset="utf-8" />
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<style>
+			@import url("./css/style.css");
+			@import url("./css/mainpage.css");
+      @import url("./css/antd.css");
+      @font-face {
+  font-family: 'webfont';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_8dhyrqs8ab6.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_8dhyrqs8ab6.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_8dhyrqs8ab6.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_8dhyrqs8ab6.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_8dhyrqs8ab6.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_8dhyrqs8ab6.svg#Alibaba-PuHuiTi-Regular') format('svg'); /* iOS 4.1- */
+}
+
+		</style>
+    <link rel="stylesheet"  href="//at.alicdn.com/t/font_2372501_q5bhdy6mgx.css"></link>
   </head>
-  <body>
+  <body style="font-family:webfont;">
+
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>

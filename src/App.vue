@@ -1,32 +1,47 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <el-container id="app" style="position:absolute;left:0;top:0;width:100%;">
+    <el-header>
+		<headerpc v-if="!isphone"></headerpc>
+		<headerphone v-if="isphone"></headerphone>
+    </el-header>
+    
+    <el-main class="body">
+      <router-view />
+    </el-main>
+    <el-footer>
+      <footers></footers>
+    </el-footer>
+	<top></top>
+  <WaterMask />
+  </el-container>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+import headerpc from "@/components/head.vue";
+import footers from "@/components/footer.vue";
+import top from "@/components/totop.vue";
+import headerphone from "@/components/phoneheader.vue";
+import WaterMask from '@/components/watermask';
+export default {
+  components:{
+    headerpc,
+    footers,
+	top,
+	headerphone,
+  WaterMask
+  },
+  data(){
+	  return {
+		  isphone:false,
+	  }
+  },
+  created(){
+	  this.isphone=this.$hardware.checkphone()
   }
+}
+</script>
+<style scoped>
+#app{
+	font-family: "webfont";
 }
 </style>

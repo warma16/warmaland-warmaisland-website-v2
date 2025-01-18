@@ -1,0 +1,25 @@
+import urllib, urllib2, sys
+import ssl
+
+
+host = 'https://'
+path = '/getbilibilivideoinfo'
+method = 'GET'
+appcode = '你自己的AppCode'
+querys = 'bvid=BV1xX4y1u7qF'
+bodys = {}
+url = host + path + '?' + querys
+
+request = urllib2.Request(url)
+request.add_header('Authorization', 'APPCODE ' + appcode)
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
+response = urllib2.urlopen(request, context=ctx)
+content = response.read()
+if (content):
+    print(content)
+
+
+db.createUser( {user: "womadao",pwd: "8848jQd*()123",roles: [ { role: "dbAdmin", db: "womadaobanlist" },{role:"readWrite", db: "womadaobanlist"},{ role: "dbAdmin", db: "wmddata" },{role:"readWrite", db: "wmddata"} ]})
+db.updateUser("womadao",{roles: [ { role: "dbAdmin", db: "womadaobanlist" },{role:"readWrite", db: "womadaobanlist"},{ role: "dbAdmin", db: "wmddata" },{role:"readWrite", db: "wmddata"} ]})

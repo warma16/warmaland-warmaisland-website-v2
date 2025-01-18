@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="983px" height="401px" viewBox="0 0 983 401" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>分组 2 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-40.8626716%" y1="-40.6381184%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#026FFF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#1278FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="143.88755%" y1="140.303775%" x2="0%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#026FFF" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#1278FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="166.857803%" y1="-71.724226%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#026FFF" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#1278FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="-102.424163%" y2="209.896336%" id="linearGradient-4">
+            <stop stop-color="#1278FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#026FFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="107.462724%" y1="-26.0388487%" x2="-77.3580828%" y2="219.353686%" id="linearGradient-5">
+            <stop stop-color="#1278FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#1177FF" stop-opacity="0.0147838659" offset="20.1646227%"></stop>
+            <stop stop-color="#026FFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-9.4%" y="-9.4%" width="118.8%" height="118.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="121.141139%" y1="128.22042%" x2="-132.443192%" y2="-178.069309%" id="linearGradient-7">
+            <stop stop-color="#1278FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#1177FF" stop-opacity="0.0147838659" offset="20.1646227%"></stop>
+            <stop stop-color="#026FFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-11.5%" y="-11.5%" width="123.1%" height="123.1%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="164.212637%" y1="-64.4878342%" x2="0%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#026FFF" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#1278FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-17.6%" y="-17.6%" width="135.3%" height="135.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="88.1126935%" y1="112.208112%" x2="-100.461098%" y2="-189.57318%" id="linearGradient-11">
+            <stop stop-color="#1278FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#026FFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-35.3%" y="-35.3%" width="170.6%" height="170.6%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="0%" y1="-10.816387%" x2="227.34865%" y2="259.338658%" id="linearGradient-13">
+            <stop stop-color="#1278FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#026FFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-25.0%" y="-25.0%" width="150.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="下载中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-1355.000000, -259.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="2710" height="2478"></rect>
+            <g id="分组-2-copy" transform="translate(1355.000000, 261.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="22" width="193" height="193"></rect>
+                <rect id="矩形-copy" fill="url(#linearGradient-2)" x="849" y="237" width="134" height="134"></rect>
+                <rect id="矩形-copy-5" fill="url(#linearGradient-3)" x="769" y="34" width="52" height="52"></rect>
+                <rect id="矩形-copy-6" fill="url(#linearGradient-4)" x="217" y="322" width="77" height="77"></rect>
+                <rect id="矩形-copy-2" fill="url(#linearGradient-5)" filter="url(#filter-6)" x="426" y="221" width="32" height="32"></rect>
+                <rect id="矩形-copy-8" fill="url(#linearGradient-7)" filter="url(#filter-8)" x="342" y="0" width="26" height="26"></rect>
+                <rect id="矩形-copy-3" fill-opacity="0.5" fill="url(#linearGradient-9)" filter="url(#filter-10)" x="654" y="161" width="17" height="17"></rect>
+                <rect id="矩形-copy-4" fill-opacity="0.8" fill="url(#linearGradient-11)" filter="url(#filter-12)" x="458" y="86" width="17" height="17"></rect>
+                <rect id="矩形-copy-7" fill="url(#linearGradient-13)" filter="url(#filter-14)" x="576" y="178" width="12" height="12"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
